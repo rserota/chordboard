@@ -1,0 +1,18 @@
+.keybound {
+	display:inline-block;
+	background-color:blue;
+	border:4px solid black;
+	height:60px;
+	width:70px;
+	margin:10px 10px 10px 10px;
+	border-radius:15px;
+}
+
+
+#chords,#tones {
+	background-color:#222;
+	display:inline-block;
+    border-radius:40px;
+
+
+}
