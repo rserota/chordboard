@@ -1,34 +1,34 @@
 var tones = {
-	C1: new Audio('sounds/C1.wav')
-	Db1: new Audio('sounds/Db1.wav')
-	D1: new Audio('sounds/D1.wav')
-	Eb1: new Audio('sounds/Eb1.wav')
-	E1: new Audio('sounds/E1.wav')
-	F1: new Audio('sounds/F1.wav')
-	Gb1: new Audio('sounds/Gb1.wav')
-	G1: new Audio('sounds/G1.wav')
-	Ab1: new Audio('sounds/Ab1.wav')
-	A1: new Audio('sounds/A1.wav')
-	Bb1: new Audio('sounds/Bb1.wav')
-	B1: new Audio('sounds/B1.wav')
-	C2: new Audio('sounds/C2.wav')
-	Db2: new Audio('sounds/Db2.wav')
-	D2: new Audio('sounds/C.wav')
-	Eb2: new Audio('sounds/C.wav')
-	E2: new Audio('sounds/C.wav')
-	F2: new Audio('sounds/C.wav')
-	Gb2: new Audio('sounds/C.wav')
-	G2: new Audio('sounds/C.wav')
-	Ab2: new Audio('sounds/C.wav')
-	A2: new Audio('sounds/C.wav')
-	Bb2: new Audio('sounds/C.wav')
+	C1: new Audio('sounds/C1.wav'),
+	Db1: new Audio('sounds/Db1.wav'),
+	D1: new Audio('sounds/D1.wav'),
+	Eb1: new Audio('sounds/Eb1.wav'),
+	E1: new Audio('sounds/E1.wav'),
+	F1: new Audio('sounds/F1.wav'),
+	Gb1: new Audio('sounds/Gb1.wav'),
+	G1: new Audio('sounds/G1.wav'),
+	Ab1: new Audio('sounds/Ab1.wav'),
+	A1: new Audio('sounds/A1.wav'),
+	Bb1: new Audio('sounds/Bb1.wav'),
+	B1: new Audio('sounds/B1.wav'),
+	C2: new Audio('sounds/C2.wav'),
+	Db2: new Audio('sounds/Db2.wav'),
+	D2: new Audio('sounds/D2.wav'),
+	Eb2: new Audio('sounds/Eb2.wav'),
+	E2: new Audio('sounds/E2.wav'),
+	F2: new Audio('sounds/F2.wav'),
+	Gb2: new Audio('sounds/Gb2.wav'),
+	G2: new Audio('sounds/G2.wav'),
+	Ab2: new Audio('sounds/Ab2.wav'),
+	A2: new Audio('sounds/A2.wav'),
+	Bb2: new Audio('sounds/Bb2.wav'),
 }
 
 var chords = {
-	alpha:[tones.C1,tones.E1,tones.G1,tones.B1]
-	beta:[tones.F1,tones.A1,tones.C2,tones.E2]
-	gamma:[tones.G1,tones.B1,tones.D2,tones.F2]
-	delta:[tones.A1,tones.C2,tones.E2,tones.G2]
+	alpha:[tones.C1,tones.E1,tones.G1,tones.B1],
+	beta:[tones.F1,tones.A1,tones.C2,tones.E2],
+	gamma:[tones.G1,tones.B1,tones.D2,tones.F2],
+	delta:[tones.A1,tones.C2,tones.E2,tones.G2],
 }
 
 var boundChord = chords.alpha
