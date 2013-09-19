@@ -21,14 +21,14 @@ var tones = {
 	G2: new Audio('sounds/G2.wav'),
 	Ab2: new Audio('sounds/Ab2.wav'),
 	A2: new Audio('sounds/A2.wav'),
-	Bb2: new Audio('sounds/Bb2.wav'),
+	Bb2: new Audio('sounds/Bb2.wav')
 }
 
 var chords = {
 	alpha:[tones.C1,tones.E1,tones.G1,tones.B1],
 	beta:[tones.F1,tones.A1,tones.C2,tones.E2],
 	gamma:[tones.G1,tones.B1,tones.D2,tones.F2],
-	delta:[tones.A1,tones.C2,tones.E2,tones.G2],
+	delta:[tones.A1,tones.C2,tones.E2,tones.G2]
 }
 
 var boundChord = chords.alpha
